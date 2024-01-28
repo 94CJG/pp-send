@@ -1,0 +1,124 @@
+
+
+.container-wrap {
+	background-color: #fff
+}
+
+/* logo */
+a.navbar-brand {
+	padding-left: 100px;
+}
+
+
+/* nav */
+.navbar-default {
+	margin-bottom: 50px;
+}
+
+li.active span {
+	color: #ff8a3d;;
+}
+
+/* container */
+		.header {
+			font-weight: 600;
+			color: #212529;
+			font-size: 18px;
+			margin: 10px 0;
+			height: 40px;
+		}
+
+		.header h1 {
+			font-size: 20px;
+		}
+
+		.container-fluid {
+			border-radius: 8px;
+			border: 1px solid #e9ecef;
+			width: 800px;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			background-color: whitesmoke;
+		}
+
+		.card-photo {
+			height: 160px;
+			overflow: hidden;
+		}
+		.article-title {
+			display: block;
+			font-weight: 600;
+			color: #212529;
+			font-size: 16px;
+			line-height: 18px;
+			margin-top: 10px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.article-info {
+			position: relative;
+		}
+
+		.article-region-name {
+		font-size: 16px;
+    line-height: 18px;
+    margin-top: 6px;
+    color: #868e96;
+		}
+
+		.article-price {
+			font-weight: 600;
+			color: #ff8a3d;
+			font-size: 16px;
+			line-height: 18px;
+			margin-top: 6px;
+		}
+
+		.card-photo img {
+			width: 100%;
+			transform: translate(0, -13%);
+		}
+
+
+		.article-watch {
+			position: absolute;
+			color: #212529;
+			display: inline-block;
+			bottom: 0;
+			right: 0;
+		}
+		/* //container */
+
+
+		/* footer */
+		.me-5 {
+			position: relative;
+			border-top: 1px solid #eaebee;;
+			padding-top: 2%;
+		}
+
+		h6.footer-a a { 
+			color: #495057;
+			text-decoration: none;
+		}
+		h6.footer-a p { 
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+		footer.text-center {
+			padding-top: 20px;
+		}
+		.section-wrap {
+			padding-top: 0px;
+		}
+
+		.footer-aside {
+			font-weight: normal
+		}
+
+		/* //footer */
+
+		/* 검색폼 영역 */
+button.login a { color:#495057}

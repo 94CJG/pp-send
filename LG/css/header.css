@@ -1,0 +1,27 @@
+#header{
+	position: relative;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	width: 450px;
+}
+
+.header-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 25px;
+}
+
+.short-img {
+	display: flex;
+}
+
+.searth {
+	margin-right: 10px;
+}
+
+

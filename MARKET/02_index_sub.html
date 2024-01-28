@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> 당근마켓(부동산 직거래)-서브페이지2</title>
+	<link rel="stylesheet" href="css/02_style_sub.css">
+	<link rel="icon" href="img/favicon.png">
+	<!-- 부트스트랩 CSS -->
+	<link rel="stylesheet" 
+	href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css'/>
+	<!-- 부트스트랩 테마 CSS -->
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+	<!-- 부트스트랩 JS -->
+	<script 
+	src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<!-- 
+	클래스 명명법
+	.container : 고정형 그리드 시작
+	.row			 : 컬럼의 그룹(구역)
+	.col			 : 컬럼(단)
+			-xs-	 : 너비 768px 미만
+			-sm-	 : 너비 769px ~ 991px
+			-md-	 : 너비 992px ~ 1199px
+			-lg-	 : 너비 1200px 이상
+				 1~12: 그리드 컬럼의 개수
+ -->
+<body class="body-wrap">
+	 <!-- .navbar : 내비게이션 바 형태 -->
+  <!-- .navbar-default : 디자인(배경색, 테두리색) -->
+  <nav class="navbar navbar-default" role="navigation">
+    <!-- .navbar-header : 데스크탑과 모바일 레이아웃 처리 -->
+    <div class="navbar-header">
+      <!-- 모바일에서 햄버거 메뉴 역할 -->
+      <!-- data-target=".navbar-ex1-collapse : 메뉴 동작과 연동되므로 삭제 금지" -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">메뉴</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- 로고 영역 -->
+      <a class="navbar-brand" href="./index.html" style="color:#FFB98B">당근마켓</a>
+    </div>
+
+    <!-- 메뉴 모음 -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="01_index_sub.html">
+					<span>중고거래</span></a>
+				</li>
+        <li class="active"><a href="02_index_sub.html"><span>부동산 직거래</span></a></li>
+        <li><a href="#">알바</a></li>
+        <!-- 2차 메뉴 -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">드롭다운
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">서브메뉴 1</a></li>
+            <li><a href="#">서브메뉴 2</a></li>
+            <li><a href="#">서브메뉴 3</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- 검색 폼 영역  -->
+      <form class="navbar-form navbar-right" rolor="search">
+				<button type="submit" class="btn btn-link login"><a href="03_login.html">로그인</a></button>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="물품 검색어 입력">
+        </div>
+        <button type="submit" class="btn btn-default">검색</button>
+      </form>
+    </div>
+  </nav>
+	
+	<!-- container -->
+	<div class="container-wrap">
+		<div class="container-fluid">
+			<!-- header -->
+			<header class="header">
+				<h1>인기 부동산 직거래 게시글</h1>
+			</header>
+			<!-- //header -->
+				<div class="row">
+					<!-- .col-md-1{md-1}*12 -->
+					<div class="col-md-6">
+						<a href="02_index_sub.html">
+							<div class="card-photo">
+								<img src="img/main-page-sub3-01.jpg" alt="해바라기 옷가게">
+							</div>
+							<div class="article-info">
+								<span class="article-title">상가 500만원 / 60만원 - 해바라기</span>
+								<p class="article-region-name"> 서울 양천구 신정2동</p>
+								<p class="article-price">월세 500 / 60</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="02_index_sub.html">
+							<div class="card-photo">
+								<img src="img/main-page-sub3-02.jpg" alt="투룸이상 300만원/1만원-인천광역시 남동구">
+							</div>
+							<div class="article-info">
+								<span class="article-title">투룸이상 300만원/1만원-인천광역시</span>
+								<p class="article-region-name"> 만수동</p>
+								<p class="article-price">단기 300 / 1</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="02_index_sub.html">
+							<div class="card-photo">
+								<img src="img/main-page-sub3-03.jpg" alt="상가 150만원 / 30만원 - 1층">
+							</div>
+							<div class="article-info">
+								<span class="article-title">상가 150만원 / 30만원 - 1층</span>
+								<p class="article-region-name"> 동인로2가 </p>
+								<p class="article-price">월세 150 / 30</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="02_index_sub.html">
+							<div class="card-photo">
+								<img src="img/main-page-sub3-04.jpg" alt="오픈형 원름 200만원/33만원 - 은하수빌 307호">
+							</div>
+							<div class="article-info">
+								<span class="article-title">오픈형 원름 200만원/33만원 - 은하수빌 307호</span>
+								<p class="article-region-name"> 대잠동 </p>
+								<p class="article-price">월세 200 / 33</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="02_index_sub.html">
+							<div class="card-photo">
+								<img src="img/main-page-sub3-05.jpg" alt="오픈형 원름 200만원/33만원 - 은하수빌 307호">
+							</div>
+							<div class="article-info">
+								<span class="article-title">아파트 6억 5,000만원 - 경기도 용인시 수지구</span>
+								<p class="article-region-name"> 성북동 </p>
+								<p class="article-price">전세 6억 5,000</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="02_index_sub.html">
+							<div class="card-photo">
+								<img src="img/main-page-sub3-06.jpg" alt="오픈형 원름 200만원/33만원 - 은하수빌 307호">
+							</div>
+							<div class="article-info">
+								<span class="article-title">상가 3,000만원/210만원 - 건영옴니 백화</span>
+								<p class="article-region-name"> 중계동 </p>
+								<p class="article-price">월세 3,000 / 210</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 모달 -->
+		<div class="container modal-wrap">
+	
+			<hr>
+			<!-- 
+				data-toggle="modal" : 토글시 모달 작동
+				data-target="#modalWindow" : 보여줄 모달 윈도우
+			 -->
+			 <div class="modal-button">
+				<button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalWindow">
+					더보기
+				</button>
+			</div>
+	
+			 
+	
+			 <!-- 모달 윈도우 영역 -->
+			 <!-- 
+				role="dialog" : 모달의 접근성
+				aria-hidden="true" : (스크린리더기가 건너뜀)
+				aria-labelledby="modalWindowLabel" : 모달 타이틀
+				-->
+				<div class="modal fade" id="modalWindow" tabindex="-1" role="dialog" aria-labelledby="modalWindowLabel" aria-hidden="ture">
+					<!-- 모달 다이얼로그 -->
+					<div class="modal-dialog">
+						<!-- 모달 컨텐츠 영역 -->
+						<div class="modal-content">
+							<div class="modal-header">
+								<!-- 
+											data-dismiss="modal" : 모달 윈도우 종
+								 -->
+								<button type="button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>마지막 페이지 입니다.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+							</div>
+							<!-- 모달 컨텐츠 끝 -->
+						</div>
+						<!-- 모달 다이얼로그 끝 -->
+					</div>
+					<!-- 모달 윈도우 끝 -->
+	
+				</div>
+		</div>
+		<!-- //모달 -->
+		<!-- //container -->
+
+		<!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+    </div>
+
+  <!-- Section: Links  -->
+  <section class="section-wrap">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <div class="fas fa-gem me-3 text-secondary">
+							<span>
+								<b>대표</b>
+								최지구, 염도훈 |
+							</span>
+							<span>
+								<b>사업자번호</b>
+								<span class="footer-aside">375-87-00088</span> 
+							</span>
+						<div>
+							<b>직업정보제공사업 신고번호</b>
+							<span class="footer-aside">2016-서울서초-0051</span> 
+						</div>
+						<address class="footer-address">
+							<div class="home">
+								<b>주소</b>
+								인천광역시 미추홀구 인하로 381, 스카이빌딩 404호 (당근서비스)
+							</div>
+							<div class="footer-aside-bot">
+								<b>전화 |</b>
+								<span class="footer-aside">1004-1004</span> 
+								<span>
+									<b>고객문의</b>
+									<span class="mail"></span> cjg@gmail.com
+								</span>
+							</div>
+						</address>
+						</div>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 footer-a">
+						<p>
+							<a href="#" class="text-reset">동네가게</a>
+						</p>
+						<p>
+							<a href="#" class="text-reset">당근알바</a>
+						</p>
+						<p>
+							<a href="#" class="text-reset">당근비즈니스</a>
+						</p>
+						<p>
+							<a href="#" class="text-reset">채팅하기</a>
+						</p>
+					</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 footer-a">
+						<p>
+							<a href="#!" class="text-reset">자주 묻는 질문</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">회사 소개</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">인재 채용</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">찾아오시는길</a>
+						</p>
+					</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+					<i class="fas fa-envelope me-3 text-secondary"></i>
+					info@example.com
+				</p>
+				<p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+				<p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+				<p><i class="fas fa-home me-3 text-secondary"></i> © 2022 Copyright:최지구 </p>
+				<p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
+
+

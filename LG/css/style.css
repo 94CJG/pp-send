@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body, html {
+	width: 450px;
+	position: relative;
+}
+
+
+button{
+	background: inherit;
+	border:none;
+	box-shadow:none;
+	border-radius:0;
+	padding:0;
+	overflow:visible;
+	cursor:pointer
+}
+
+ul, ol {
+	list-style: none;
+}
+
+span {
+	display: block;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+}
+
+

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> 당근마켓(중고거래)-서브페이지</title>
+	<link rel="stylesheet" href="css/01_style_sub.css">
+	<link rel="icon" href="img/favicon.png">
+	<!-- 부트스트랩 CSS -->
+	<link rel="stylesheet" 
+	href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css'/>
+	<!-- 부트스트랩 테마 CSS -->
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+	<!-- 부트스트랩 JS -->
+	<script 
+	src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<!-- 
+	클래스 명명법
+	.container : 고정형 그리드 시작
+	.row			 : 컬럼의 그룹(구역)
+	.col			 : 컬럼(단)
+			-xs-	 : 너비 768px 미만
+			-sm-	 : 너비 769px ~ 991px
+			-md-	 : 너비 992px ~ 1199px
+			-lg-	 : 너비 1200px 이상
+				 1~12: 그리드 컬럼의 개수
+ -->
+<body>
+	 <!-- .navbar : 내비게이션 바 형태 -->
+  <!-- .navbar-default : 디자인(배경색, 테두리색) -->
+  <nav class="navbar navbar-default" role="navigation">
+    <!-- .navbar-header : 데스크탑과 모바일 레이아웃 처리 -->
+    <div class="navbar-header">
+      <!-- 모바일에서 햄버거 메뉴 역할 -->
+      <!-- data-target=".navbar-ex1-collapse : 메뉴 동작과 연동되므로 삭제 금지" -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">메뉴</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- 로고 영역 -->
+      <a class="navbar-brand" href="./index.html" style="color:#FFB98B">당근마켓</a>
+    </div>
+
+    <!-- 메뉴 모음 -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">
+					<span>중고거래</span></a>
+				</li>
+        <li><a href="02_index_sub.html">부동산 직거래</a></li>
+        <li><a href="#">알바</a></li>
+        <!-- 2차 메뉴 -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">드롭다운
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">서브메뉴 1</a></li>
+            <li><a href="#">서브메뉴 2</a></li>
+            <li><a href="#">서브메뉴 3</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- 검색 폼 영역  -->
+      <form class="navbar-form navbar-right" rolor="search">
+				<button type="submit" class="btn btn-link login"><a href="03_login.html">로그인</a></button>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="물품 검색어 입력">
+        </div>
+        <button type="submit" class="btn btn-default">검색</button>
+      </form>
+    </div>
+  </nav>
+	
+	<!-- container -->
+	<div class="container-wrap">
+		<div class="container-fluid">
+			<header class="header">
+				<h1>중고거래</h1>
+			</header>
+			<!-- header -->
+			<!-- //header -->
+				<div class="row">
+					<!-- .col-md-1{md-1}*12 -->
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk01.jpg" alt="스탠딩 책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">스탠딩 책상 / 높이조절책상/허리디스크/서서하는책상/편안함을 제공하는</span>
+							<p class="article-region-name"> 서울 양천구 신정2동</p>
+							<p class="article-price">45,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 4
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk02.jpg" alt="각도조절 보조책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">[곧은나무]각도조절 보조책상 800*500독서대, 작업책상, 거북목 방지 책상,애쉬원목, 원목책상</span>
+							<p class="article-region-name"> 경기도 성남시 수정구 수진동</p>
+							<p class="article-price">70,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 2
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk03.jpg" alt="각도조절 보조책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">[곧은나무]각도조절 보조책상 800*500독서대, 작업책상, 거북목 방지 책상,애쉬원목, 원목책상</span>
+							<p class="article-region-name"> 경기도 성남시 수정구 수진동</p>
+							<p class="article-price">70,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 6
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk04.jpg" alt="공부 컴퓨터 사무 책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">공부책상 컴퓨터책상 사무책상 </span>
+							<p class="article-region-name"> 전분 전주시 덕진구 우아동3가</p>
+							<p class="article-price">57,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 1
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk05.jpg" alt="책상 컴퓨터책상 음악용책상 모니터용 책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">책상 컴퓨터책상 음악용책상 모니터용 책상 </span>
+							<p class="article-region-name"> 서울 서대문구 충정로3가</p>
+							<p class="article-price">80,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 10
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk06.jpg" alt="책상 컴퓨터책상 음악용책상 모니터용 책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">책상 컴퓨터책상 음악용책상 모니터용 책상 </span>
+							<p class="article-region-name"> 서울 서대문구 충정로3가</p>
+							<p class="article-price">80,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 12
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk07.jpg" alt="이케아 책상 컴퓨터 책상 1인용 선반형 책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">이케아 책상 컴퓨터책상 1인용 선반형 책상 </span>
+							<p class="article-region-name"> 서울 서서초구 방배동</p>
+							<p class="article-price">40,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 7
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk08.jpg" alt="책상 컴퓨터책상 음악용책상 모니터용 책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">컴퓨터책상/게임책상/책상/1400책상 </span>
+							<p class="article-region-name">관악구 낙성대동</p>
+							<p class="article-price">62,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 5
+								</span>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card-photo">
+							<img src="img/desk09.jpg" alt="원목책상 어린이 뭔목레고 책상 인테리어 블럭책상">
+						</div>
+						<div class="article-info">
+							<span class="article-title">원목책상 어린이 원목레고책상 인테리어 블럭책상 </span>
+							<p class="article-region-name">양천구 신월2동</p>
+							<p class="article-price">100,000원</p>
+							<section class="article-sub-info">
+								<span class="article-watch">
+									<img src="img/like.svg" alt="좋아요"> 5
+								</span>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //container -->
+
+		<!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span></span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="section-wrap">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <div class="fas fa-gem me-3 text-secondary">
+							<span>
+								<b>대표</b>
+								최지구, 염도훈 |
+							</span>
+							<span>
+								<b>사업자번호</b>
+								<span class="footer-aside">375-87-00088</span> 
+							</span>
+						<div>
+							<b>직업정보제공사업 신고번호</b>
+							<span class="footer-aside">2016-서울서초-0051</span> 
+						</div>
+						<address class="footer-address">
+							<div class="home">
+								<b>주소</b>
+								인천광역시 미추홀구 인하로 381, 스카이빌딩 404호 (당근서비스)
+							</div>
+							<div class="footer-aside-bot">
+								<b>전화 |</b>
+								<span class="footer-aside">1004-1004</span> 
+								<span>
+									<b>고객문의</b>
+									<span class="mail"></span> cjg@gmail.com
+								</span>
+							</div>
+						</address>
+						</div>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 footer-a">
+						<p>
+							<a href="#" class="text-reset">동네가게</a>
+						</p>
+						<p>
+							<a href="#" class="text-reset">당근알바</a>
+						</p>
+						<p>
+							<a href="#" class="text-reset">당근비즈니스</a>
+						</p>
+						<p>
+							<a href="#" class="text-reset">채팅하기</a>
+						</p>
+					</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 footer-a">
+						<p>
+							<a href="#!" class="text-reset">자주 묻는 질문</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">회사 소개</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">인재 채용</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">찾아오시는길</a>
+						</p>
+					</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+					<i class="fas fa-envelope me-3 text-secondary"></i>
+					info@example.com
+				</p>
+				<p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+				<p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+				<p><i class="fas fa-home me-3 text-secondary"></i> © 2022 Copyright:최지구 </p>
+				<p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
+
+

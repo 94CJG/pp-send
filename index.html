@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/loading.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="./js/loading.js" defer></script>
+    <script src="./js/nav.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/btn.js" defer></script>
+    <title>JG`s Portfolio</title>
+  </head>
+  <body>
+    <!-- 로딩시작 -->
+    <div id="wavy-box">
+      <div class="wavy">
+        <span style="--i: 1">L</span>
+        <span style="--i: 2">o</span>
+        <span style="--i: 3">a</span>
+        <span style="--i: 4">d</span>
+        <span style="--i: 5">i</span>
+        <span style="--i: 6">n</span>
+        <span style="--i: 7">g</span>
+        <span style="--i: 8">.</span>
+        <span style="--i: 9">.</span>
+        <span style="--i: 10">.</span>
+      </div>
+    </div>
+    <!-- 로딩끝 -->
+
+    <!-- 로딩 끝난 후 로딩되는 페이지 시작-->
+    <div class="wrap">
+      <!-- 헤더 시작 -->
+      <section id="header" data-aos="fade-up" data-aos-duration="1000"
+      style="display: none;">
+        <div id="hd">
+          <ul class="nav">
+            <li class="on">HOME</li>
+            <li>ABOUT</li>
+            <li>PORTFOLIO</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+      </section>
+      <!-- 헤더 끝-->
+
+      <!-- 메인home 시작 -->
+      <section id="home">
+        <h2 data-aos="fade-in" data-aos-duration="1000">HOME</h2>
+        <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+          <p>WELCOME TO MY PORTFOLIO</p>
+          <hr />
+          <p>웹 퍼블리셔 최지구 입니다.</p>
+        </div>
+      </section>
+      <!-- 메인home 끝 -->
+
+      <!-- 메인about 시작 -->
+      <section id="about">
+        <h2 data-aos="fade-down" data-aos-duration="1000">ABOUT</h2>
+        <hr class="hr" data-aos="fade-right" data-aos-duration="1000" />
+        <div id="about-container">
+          <div class="intro" data-aos="fade-left" data-aos-duration="1000">
+            <p class="intro-desc">
+              "퍼블리셔로서의 여정은 마치 좁은 도랑을 건너는 것과 같습니다.
+            </p>
+            <br />
+            <p class="intro-desc">
+              목표와 소망이 있어도, 노력 없이는 성공을 이룰 수 없습니다.
+            </p>
+            <br />
+            <p class="intro-desc">
+              능력이 부족하더라도 꾸준한 노력을 통해 사용자 중심의<br />
+              <br />퍼블리셔로 성장하고자 합니다.
+            </p>
+            <br />
+            <p class="intro-desc">
+              '다리를 움직이지 않으면 좁은 도랑도 건널 수 없다'는 말처럼,
+            </p>
+            <br />
+            <p class="intro-desc">
+              능동적으로 학습하고 발전하여 나만의 성장을 위한 다리를 열심히
+              건너고자 합니다."
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 메인about 끝 -->
+
+      <!-- 포토폴리오 소개란 시작 -->
+      <section id="portfolio">
+        <h2 data-aos="fade-down" data-aos-duration="1000">PORTFOLIO</h2>
+        <div class="portfolio-container">
+          <div class="portfolio-img" data-aos="fade-down" data-aos-duration="1000">
+            <img src="./asset/img/lg.png" alt="">
+          </div>
+          <div class="porfolio-info"
+          data-aos="fade-up" data-aos-duration="1000">
+            <p>LG전자 클론코딩</p>
+            <p>MO버전, 2일, 기여100%</p>
+            <p>HTML5 + CSS3 + JavaScript를 사용하여 제작 하였습니다. </p>
+            <a href="./LG/index.html">View</a>
+          </div>
+          <div class="portfolio-img" data-aos="fade-down" data-aos-duration="1000">
+            <img src="./asset/img/kream.png" alt="" >
+          </div>
+          <div class="porfolio-info"
+          data-aos="fade-up" data-aos-duration="1000">
+            <p>크림 쇼핑몰 클론코딩</p>
+            <p>PC버전, 3일, 기여100%</p>
+            <p>HTML5 + CSS3 + jQuery를 사용하여 제작 하였습니다. </p>
+            <a href="./kream/index.html">View</a>
+          </div>
+          <div class="portfolio-img"data-aos="fade-left" data-aos-duration="1000">
+            <img src="./asset/img/market.png" alt="">
+          </div>
+          <div class="porfolio-info"
+          data-aos="fade-right" data-aos-duration="1000">
+            <p>당근마켓 클론코딩</p>
+            <p>PC버전, 3일, 기여100%</p>
+            <p>HTML5 + CSS3 + 부트스트랩을 사용하여<br>제작 하였습니다. </p>
+            <a href="./MARKET/index.html">View</a>
+          </div>
+        </div>
+      </section>
+      <!-- 포토폴리오 소개란 끝 -->
+
+      <!-- 메인contact 시작 -->
+      <section id="contact">
+        <div class="contact">
+          <h2 data-aos="fade-up" data-aos-duration="1000">CONTACT</h2>
+          <hr class="hr" data-aos="fade-down" data-aos-duration="1000" />
+          <div
+            class="contact-container"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <button class="btn-email" onclick="redirectEmail()">Email</button>
+            <button class="btn-github" onclick="redirectGithub()">GIThub</button>
+          </div>
+          <p data-aos="fade-down" data-aos-duration="1000">
+            "I am Waiting For Your Contact"
+          </p>
+        </div>
+      </section>
+      <!-- 메인contact 끝 -->
+    </div>
+    <!-- 로딩 끝난 후 로딩되는 페이지 끝 -->
+  </body>
+</html>
