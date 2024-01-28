@@ -1,0 +1,391 @@
+/* container */
+.container {
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+}
+
+.home {
+	margin: 0;
+	padding: 0;
+}
+
+.home_card_list {
+	padding: 0;
+}
+
+
+/* shortcut_collection -01*/
+/* shortcut_items */
+.shortcut_collection {
+	margin-top: 50px;
+}
+
+.shortcut_items_wrap {
+	margin: 0 auto;
+	padding: 0 32.5px;
+	max-width: 1280px;
+}
+
+.shortcut_items {
+	text-align: center;
+	display: inline-block;
+	width: calc(20% - 15px);
+	margin: 0 5px;
+}
+
+.shortcut_items_top {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px
+}
+
+.shortcut_items_bottom {
+	display: flex;
+	justify-content: space-between
+}
+
+div.shortcut_item_img_wrap img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+p.shortcut_item_title {
+	margin-top: 12px;
+	display: inline-block;
+}
+
+/* //shortcut_items */
+/* //shortcut_collection -01*/
+
+/* home_products just_dropped */
+.just_dropped {
+	margin-top: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.product_item {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 12px;
+	width: calc(24% - 15px);
+	transition: all .4s ease-in-out;
+}
+
+.product_title {
+	margin: 0 auto;
+	padding: 0 40px;
+	max-width: 1280px;
+	margin-top: 20px;
+}
+
+.product_list_wrap {
+	max-width: 1280px;
+	margin: 0 auto;
+	overflow-anchor: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.title {
+	font-size: 20px;
+	letter-spacing: -.1px;
+	font-weight: 900;
+	color: #000;
+}
+
+.sub_title {
+	font-size: 14px;
+	letter-spacing: -.21px;
+	color: rgba(34, 34, 34, .5);
+}
+
+.product_list {
+	display: flex;
+	overflow: hidden;
+	justify-content: space-around;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 24px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.thumb_box {
+	height: auto;
+}
+
+div.product {
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+}
+
+div.product img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.brand {
+	padding-top: 5px;
+}
+
+p.brand-text {
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: 700;
+	border-bottom: 1px solid #222;
+	overflow: hidden;
+	/* line-height: 17px; */
+	height: 20px;
+}
+
+.sub_title p.name {
+	font-size: 1.2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+p.name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+span.num {
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+.btn_product {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.desc {
+	color: rgba(34, 34, 34, .5)
+}
+
+a.btn {
+	border: 1px solid rgba(34, 34, 34, .5);
+	height: 42px;
+	line-height: 40px;
+	border-radius: 12px;
+	font-size: 14px;
+	letter-spacing: -.14px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+/* //home_products just_dropped */
+
+/* short_collection_02 */
+.short_collection_02 {
+	margin-top: 30px;
+}
+
+.product_title_02 {
+	margin: 0 auto;
+	padding: 0 40px;
+	max-width: 1280px;
+}
+
+.shorcut_items_wrap_02 {
+	margin: 0 auto;
+	padding: 0 32.5px;
+	max-width: 1280px;
+	margin-top: 20px;
+}
+
+.shorcut_items_21,
+.shorcut_items_22,
+.shorcut_items_23 {
+	display: flex;
+}
+
+.shorcut_items_22,
+.shorcut_items_23 {
+	margin-top: 15px;
+}
+
+.shorcut_items_21_list,
+.shorcut_items_22_list,
+.shorcut_items_23_list {
+	text-align: center;
+	width: calc(20% - 15px);
+	display: flex;
+	margin: 0 7.5px;
+	cursor: pointer;
+}
+
+.shorcut_items_21_list a,
+.shorcut_items_22_list a,
+.shorcut_items_23_list a {
+	width: 100%;
+	height: 100%;
+}
+
+.shorcut_items_img_21_wrap img,
+.shorcut_items_img_22_wrap img,
+.shorcut_items_img_23_wrap img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.most_popular {
+	margin-top: 20px;
+}
+
+/* //short_collection_02 */
+
+/* banner Halloween-01 */
+.banner {
+	padding-top: 30px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.banner_item {
+	width: 100%;
+	display: flex;
+	justify-items: center;
+}
+
+.item_inner {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.img_box {
+	width: 100%;
+	height: 100%;
+}
+
+.img_box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* //banner Halloween-01 */
+
+/* Style Pick */
+.social_style_slide {
+	margin-top: 30px;
+}
+
+.style_wrap {
+	max-width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.style_content {
+	width: 100%;
+	height: auto;
+}
+
+.style_slider {
+	width: 100%;
+	height: 100%;
+}
+
+.style_img_box {
+	width: 180px;
+	height: 100%;
+}
+
+.style_img_box img {
+	width: calc(100% - 15px);
+	height: 100%;
+	border-radius: 10px;
+}
+
+.style_img_box span {
+	text-align: center;
+	display: block;
+	color: #FFFAFA;
+	position: relative;
+	top: 50px;
+	right: 70px;
+	font-weight: bold;
+}
+
+/* //Style Pick */
+
+/* banner_bottom left, right */
+.banner_bottom {
+	display: flex;
+}
+
+.banner_box_left {
+	background-color: #565656;
+	background-image: url(../img/home_banner_bottom1.79549cb.png);
+	position: relative;
+	padding: 36px 32px 0;
+	width: 100%;
+	height: 200px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	background-size: 350px 200px;
+}
+
+.banner_info {
+	display: block;
+	max-width: 300px;
+	color: #fff;
+}
+
+.info_subtitle {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p.info_title {
+	padding-top: 12px;
+    text-shadow: -1px 0 #565656, 0 1px #565656, 1px 0 #565656, 0 -1px #565656;
+    font-size: 16px;
+    letter-spacing: -.16px;
+}
+
+span.info_txt {
+	margin-top: 16px;
+    padding: 0 7px;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: -.06px;
+    height: 29px;
+    line-height: 27px;
+    border-radius: 6px;
+    border: 1px solid hsla(0,0%,100%,.8);
+    color: #fff;
+}
+
+.banner_box_right {
+	background-color: #3b3a3c;
+	background-image: url(../img/home_banner_bottom2.0077547.png);
+	position: relative;
+	padding: 36px 32px 0;
+	width: 100%;
+	height: 200px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	background-size: 350px 200px;
+}
+
+.banner_bottom {
+	margin-top: 100px;
+}
+/* //banner_bottom left, right */
+
+
+
+
+/* //container */

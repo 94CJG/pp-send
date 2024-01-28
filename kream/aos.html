@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.ico" />
+	<title>Document</title>
+	<!-- jQuery  -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="asset/about.css">
+	<script src="js/about.js"></script>
+</head>
+
+<body>
+	<!-- <div data-aos="fade-down">test</div>
+	<div data-aos="fade-down">test2</div>
+	<div data-aos="fade-left" data-aos-duration="2000">test3</div> -->
+	<div class="header">
+		<ul>
+			<li class="on" class="a"><a href="#">NAV01</a></li>
+			<li><a href="#">NAV02</a></li>
+			<li><a href="#">NAV03</a></li>
+			<li><a href="#">NAV04</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div data-aos="fade-up" data-aos-offset="200" class="cnt01">
+			<p>CONTENT01</p>
+		</div>
+		<div data-aos="fade-down" class="cnt02">
+			<p>CONTENT02</p>
+		</div>
+		<div data-aos="fade-down" class="cnt03">
+			<p>CONTENT03</p>
+		</div>
+		<div data-aos="fade-down" class="cnt04">
+			<p>CONTENT04</p>
+		</div>
+	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			debounceDelay: 2000,
+			duration: 1000,
+		});
+	</script>
+</body>
+
+</html>
